@@ -1,0 +1,38 @@
+{
+  "vue3-setup": {
+		"prefix": "v3",
+		"body": [
+			"<script setup>",
+			" ",
+			"</script>",
+			"",
+			"<template>",
+			"",
+			"</template>",
+			"",
+			"<style lang=\"scss\" scoped>",
+			"",
+			"</style>",
+			"",
+			""
+		]
+	},
+  "vue3-setup-ts": {
+		"prefix": "v3t",
+		"body": [
+			"<script setup lang=\"ts\">",
+			" ",
+			"</script>",
+			"",
+			"<template>",
+			"",
+			"</template>",
+			"",
+			"<style lang=\"scss\" scoped>",
+			"",
+			"</style>",
+			"",
+			""
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "name": "ant-snippets",
+    "displayName": "Ant Snippets",
+    "description": "Code snippet of AntzyMo",
+    "repository":"https://github.com/AntzyMo/ant-snippets.git",
+    "version": "0.0.1",
+    "license": "MIT",
+    "publisher":"AntzyMo",
+    "engines": {
+        "vscode": "^1.71.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            }
+        ]
+    }
+}
