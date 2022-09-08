@@ -1,6 +1,6 @@
 {
 	"箭头函数": {
-		"prefix": "fun=",
+		"prefix": "fun",
 		"body": [
 			"const ${1:fun} = (${2}) => {",
 			"  ${3}",
