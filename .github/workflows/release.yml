@@ -1,5 +1,5 @@
 
-name: publish npm
+name: publish vscode
 
 on:
   push:
