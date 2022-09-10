@@ -2,11 +2,14 @@
     "name": "ant-snippets",
     "displayName": "Ant Snippets",
     "description": "Code snippet of AntzyMo",
-    "repository":"https://github.com/AntzyMo/ant-snippets.git",
-    "version": "0.0.2",
+    "repository": "https://github.com/AntzyMo/ant-snippets.git",
+    "version": "0.0.3",
     "license": "MIT",
-    "publisher":"AntzyMo",
+    "publisher": "AntzyMo",
     "icon": "images/icon.png",
+    "scripts": {
+        "release": "bumpp package.json  --commit --push --tag "
+    },
     "engines": {
         "vscode": "^1.71.0"
     },
@@ -24,5 +27,8 @@
                 "path": "./snippets/vue.json"
             }
         ]
+    },
+    "devDependencies": {
+        "bumpp": "^8.2.1"
     }
 }
