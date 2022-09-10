@@ -6,7 +6,8 @@ Code snippet of AntzyMo
 
 | Prefix   |  Snippet Content
 | -------- | ------------------ 
-| `fun=`   | `const fun = () => {...}`
+| `fun`   | `const fun = () => {...}`
+| `forin`   | `for (const key in object) {}`
        
 
 ## vue Snippets
