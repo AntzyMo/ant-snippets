@@ -11,7 +11,7 @@
 	"forin": {
 		"prefix": "forin",
 		"body": [
-			"for (let key in ${1:object}) {",
+			"for (const key in ${1:object}) {",
 			"  ${2}",
 			"}"
 		],
