@@ -15,8 +15,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm i pnpm -g
-      - run: pnpm add vsce -D
+      - run: npm i vsce -g
       - run: vsce package
       - run: vsce publish 
         env:
