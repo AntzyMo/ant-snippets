@@ -1,14 +1,16 @@
 {
-    "name": "ant-snippets",
-    "displayName": "Ant Snippets",
+    "name": "antzy-snippets",
+    "type": "module",
+    "displayName": "Antzy Snippets",
     "description": "Code snippet of AntzyMo",
     "repository": "https://github.com/AntzyMo/ant-snippets.git",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "license": "MIT",
     "publisher": "AntzyMo",
     "icon": "images/icon.png",
     "scripts": {
-        "release": "bumpp package.json  --commit --push --tag "
+        "release": "pnpm build && bumpp package.json  --commit --push --tag ",
+        "build": "node index.js"
     },
     "engines": {
         "vscode": "^1.71.0"
@@ -20,15 +22,24 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/javascript.json"
+                "path": "./build/js.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./build/js.json"
             },
             {
                 "language": "vue",
-                "path": "./snippets/vue.json"
+                "path": "./build/vue.json"
             }
         ]
     },
     "devDependencies": {
-        "bumpp": "^8.2.1"
+        "@antzy/eslint-config": "^1.4.9",
+        "bumpp": "^8.2.1",
+        "eslint": "^8.24.0"
+    },
+    "dependencies": {
+        "fsany": "^0.0.3"
     }
 }
