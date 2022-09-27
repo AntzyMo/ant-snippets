@@ -37,9 +37,7 @@
     "devDependencies": {
         "@antzy/eslint-config": "^1.4.9",
         "bumpp": "^8.2.1",
-        "eslint": "^8.24.0"
-    },
-    "dependencies": {
+        "eslint": "^8.24.0",
         "fsany": "^0.0.3"
     }
 }
