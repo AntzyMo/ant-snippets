@@ -4,7 +4,7 @@
     "displayName": "Antzy Snippets",
     "description": "Code snippet of AntzyMo",
     "repository": "https://github.com/AntzyMo/ant-snippets.git",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "license": "MIT",
     "publisher": "AntzyMo",
     "icon": "images/icon.png",
@@ -26,6 +26,14 @@
             },
             {
                 "language": "typescript",
+                "path": "./build/js.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./build/js.json"
+            },
+            {
+                "language": "typescriptreact",
                 "path": "./build/js.json"
             },
             {
